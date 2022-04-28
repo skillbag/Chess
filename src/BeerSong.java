@@ -6,8 +6,11 @@ public class BeerSong {
             if (BeerNum == 1) {
                 word = "бутылка";
             }
-            else if (BeerNum == 2) {
+            else if (BeerNum <=5 ) {
                 word = "бутылки";
+            }
+            else if (BeerNum >=5) {
+                word = "бутылок";
             }
             System.out.println(BeerNum + "" + word + " пива на стене");
             System.out.println(BeerNum + "" + word + " пива.");
